@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100%; 
+    height: 860px;
+}
+.div1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 47, 78);
+}
+.div1-child-1{
+    background: rgb(67, 71, 104);
+    height: 100%;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.div1-child-2{
+height: 70px;
+display: flex;
+}
+.div2{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+.div2-child-1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+input{
+    width: 100%;
+    color: grey;
+    border: none;
+}
+.div2-child-2{
+   
+    background-color: rgb(170, 185, 224);
+    height: 100%;
+    width: 100%;
+}
+.text{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.divdash{
+    border: 2px dashed gray;
+    height: 400px;
+    margin: 20px;
+    border-radius: 5px;
+}
+li{
+    list-style-type: none;
+    padding:10px;
+    color: white;
+    font-weight: bold;
+}
+.avt{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 15px
+}
+.textProfile{
+    flex: 3;
+    margin:auto;
+    color: white;
+}
+@media (max-width: 576px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+}
