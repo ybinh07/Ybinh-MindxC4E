@@ -112,6 +112,6 @@ document.write('<br> Vòng lặp trên lặp 100 lần vì lần lặp đầu l�
 // bài 9 
 document.write('<br><br>')
 document.write('Câu 9: <br>Vòng lặp while sẽ kiểm tra điều kiện trước, nếu đúng thì mới thực thi, nếu sai thì kết thúc vòng lặp, không thực thi code. <br>')
-document.write(' Do while thì thực thi đoạn code trong vòng lặp 1 lần rồi mới kiểm tra điều kiện, nếu điều kiện đúng thì tiếp tục lặp, điều kiện sai thì kết thúc vòng lặp<br><br>')
+document.write(' Do while thì thực thi đoạn code trong vòng lặp 1 lần rồi mới kiểm tra điều kiện, nếu điều kiện đúng thì tiếp tục lặp, điều kiện sai thì kết thúc vòng lặp')
 
 
