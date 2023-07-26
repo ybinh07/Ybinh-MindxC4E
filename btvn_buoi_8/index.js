@@ -47,13 +47,15 @@ function arrayObjectEx2() {
         return array.indexOf(element) === index
     })
     //console.log(arrayRemoveDoublicates)
+    const arrayObject=[]
     const arrayResult = []
     //console.log(arrayRemoveDoublicates.length)
     arrayRemoveDoublicates.map(function (element, index) {
         if (index < arrayRemoveDoublicates.length -1) {
-            arrayResult.push({ [element]: arrayRemoveDoublicates[index + 1] })
+            arrayResult.push(  {[element]: arrayRemoveDoublicates[index + 1]} )
         }
     })
+
     return arrayResult
 }
 console.log(arrayObjectEx2())

@@ -13,8 +13,9 @@ var inputElement=document.querySelector('input')
 inputElement.onclick=function(e){
     //console.log(e.target.value)
     e.target.value=''
-    onchange=board.innerText=e.target.value
-    this.onblur='Search'
+}
+inputElement.onchange=function(e){
+    board.innerText=e.target.value
 }
 
 

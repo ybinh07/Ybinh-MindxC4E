@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(93, 52, 255) ;
+    width: 100%;
+    height: 500px;
+}
+.avt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img1{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 60px;
+    
+}
+.img2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 70px;
+    margin-top: 60px;
+}
+hr{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 50px;
+    color: white;
+}
+ul,li{
+    color: white;
+    padding-left: 30px;
+    font-size: 20px;
+    padding-top: 10px;
+    
+}
+.li1{
+    margin-left: 30px;
+    display: inline;
+}
+
+.list{
+    display: flex;
+}
+input{
+    background-color: rgb(127, 94, 246);
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    left: 1050px;  
+    top: -50px;
+    position: relative;
+}
+
+::placeholder{
+    color: rgb(220, 223, 224);
+}
+
+.boxbig{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -150px;
+}
+.div1{
+    background-color: white;
+    flex: 2;
+    border-radius: 10px;
+    display: flex;
+    margin-right: 200px;
+    margin-left: 70px;
+
+}
+.div2{
+    background-color: white;
+    flex: 1;
+    margin-right: 70px;
+    border-radius: 10px;
+    display: flex;
+}
+.divchild{
+    margin: 20px;
+    
+    border: 2px dashed grey;
+    border-radius: 10px;
+    width:100%;
+    height: 560px;
+}
+@media only screen and (max-width: 576px) {
+    ul li{
+        display: flex;
+        flex-direction: column;
+    }
+    #li1{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    hr{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .img1{
+        width: 50px;
+        height: 50px;
+        margin : auto
+    }
+    .img2{
+        width: 30px;
+        height: 30px;
+        margin: auto;
+        
+    }
+    .avt{
+        display: flex;
+        justify-content: space-between;
+    }
+  input{
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    position: static;
+  }
+    .list{
+      flex-direction: column;
+    }
+   
+    .divlist{
+        margin-left: -50px;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .boxbig{
+        display: flex;
+        flex-direction: column;
+        margin-top: -70px;
+        width: 100%;
+        position: static;
+    }
+    .div1{
+        margin: 0px;
+        
+    }
+    .div2{
+        margin-right: 0px;
+    }
+}
+@media (min-width:576px) and (max-width: 1024px){
+    .img1{
+        width: 80px;
+        height: 80px;
+        margin-top: 20px
+    }
+    .img2{
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+    }
+    hr{
+        margin-top: 20px;
+    }
+    ul,li{
+        font-size: 15px;
+        width: 70%;
+    }
+    
+    input{
+        position: static;
+        width: 70%;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+    .boxbig{
+        margin-top: -25px;
+    }
+    .div1{
+        margin-right: 50px;
+        flex: 3;
+    }
+    .div2{
+        flex: 2;
+    }
+}
